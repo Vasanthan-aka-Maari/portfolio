@@ -85,6 +85,10 @@ a {
 .link-active {
   color: #f56c5d;
 }
+.link-active:hover {
+  background: none;
+  color: #f56c5d;
+}
 /* PC SCREEN NAVBAR */
 @media screen and (max-width: 720px) {
   .navbar {
