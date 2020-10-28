@@ -3,7 +3,6 @@
   display: none;
 }
 .navbar {
-  /* background: linear-gradient(to left, #f5a25d, #fa7f72); */
   background: transparent;
   height: 10vh;
   display: flex;
