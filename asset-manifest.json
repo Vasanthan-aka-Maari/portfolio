@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f19468f0.chunk.css",
-    "main.js": "/portfolio/static/js/main.5b1b3711.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5b1b3711.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4dfb4b5c.chunk.css",
+    "main.js": "/portfolio/static/js/main.82a3226a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.82a3226a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b3df5f95.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b3df5f95.js.map",
-    "static/js/2.9e8a127c.chunk.js": "/portfolio/static/js/2.9e8a127c.chunk.js",
-    "static/js/2.9e8a127c.chunk.js.map": "/portfolio/static/js/2.9e8a127c.chunk.js.map",
+    "static/js/2.8495220b.chunk.js": "/portfolio/static/js/2.8495220b.chunk.js",
+    "static/js/2.8495220b.chunk.js.map": "/portfolio/static/js/2.8495220b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8d615cb18c894f99f88bf7fe978d8ee5.js": "/portfolio/precache-manifest.8d615cb18c894f99f88bf7fe978d8ee5.js",
+    "precache-manifest.12127bd11eeaf5b2dad28bfe655413ba.js": "/portfolio/precache-manifest.12127bd11eeaf5b2dad28bfe655413ba.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.f19468f0.chunk.css.map": "/portfolio/static/css/main.f19468f0.chunk.css.map",
-    "static/js/2.9e8a127c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9e8a127c.chunk.js.LICENSE.txt",
+    "static/css/main.4dfb4b5c.chunk.css.map": "/portfolio/static/css/main.4dfb4b5c.chunk.css.map",
+    "static/js/2.8495220b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8495220b.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.612dd23a.pdf",
     "static/media/food.jpg": "/portfolio/static/media/food.97b0420a.jpg",
     "static/media/fortnite-app.jpg": "/portfolio/static/media/fortnite-app.14e468c0.jpg",
     "static/media/landingpage.jpg": "/portfolio/static/media/landingpage.e01492ae.jpg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.a136794a.svg",
     "static/media/netflixlogo.jpg": "/portfolio/static/media/netflixlogo.145241de.jpg",
     "static/media/todo.jpg": "/portfolio/static/media/todo.69aebd11.jpg",
     "static/media/weather.jpg": "/portfolio/static/media/weather.2f3af3c9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b3df5f95.js",
-    "static/js/2.9e8a127c.chunk.js",
-    "static/css/main.f19468f0.chunk.css",
-    "static/js/main.5b1b3711.chunk.js"
+    "static/js/2.8495220b.chunk.js",
+    "static/css/main.4dfb4b5c.chunk.css",
+    "static/js/main.82a3226a.chunk.js"
   ]
 }
