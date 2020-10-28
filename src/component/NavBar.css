@@ -70,7 +70,8 @@ a {
   justify-content: space-around;
 }
 .logo {
-  color: #f56c5d;
+  width: 100%;
+  height: 40px;
   transition: 0.2s ease;
 }
 .link {

@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./NavBar.css";
 import Pdf from "./Resume.pdf";
+import logo from "../images/logo.svg";
 
 function NavBar() {
   const [sidebar, setSidebar] = useState(false);
@@ -39,7 +40,7 @@ function NavBar() {
           </div>
         </div>
         <NavLink exact to="/">
-          <h1 className="logo">Vasanthan</h1>
+          <img src={logo} alt="logo" className="logo" />
         </NavLink>
         <ul className="links">
           <li>
