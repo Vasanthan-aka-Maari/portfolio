@@ -112,35 +112,70 @@ body {
 /* ABOUT */
 
 /* PORTFOLIO */
-.grid-container {
-  max-width: 100vw;
-}
-.grid-item {
-  padding: 0 !important;
-  margin: 2rem !important;
-  animation: card 1s ease;
+.card-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .card {
-  background: linear-gradient(to top, #f56c5d, rgb(250, 147, 147)) !important;
-  color: black !important;
-  border: 1px solid grey;
+  background-color: rgba(255, 255, 255, 0.842);
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
 }
-.grid-item:hover {
-  transition: all 0.3s ease;
-  box-shadow: 0px 4px 13px 8px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 0px 4px 13px 8px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 4px 13px 8px rgba(0, 0, 0, 0.25);
-  transform: scale(1.02);
+.card-hero {
+  flex: 2;
 }
-@keyframes card {
-  0% {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+.card-info {
+  margin-left: 1rem;
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-title {
+  font-size: 3rem;
+  color: #f56c5d;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+.card-text {
+  font-size: 1.5rem;
+  color: #222;
+}
+.card-skills {
+  font-size: 1.3rem;
+  color: #111;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.card-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.card-link i {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(18, 3, 240, 0.897);
+}
+.card-link:hover > i {
+  color: #f56c5d;
 }
 /* PORTFOLIO */
 /* HOME */
@@ -188,6 +223,9 @@ body {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 760px) {
+  html {
+    font-size: 12px;
+  }
   .home-container {
     width: 100vw;
   }
@@ -226,5 +264,17 @@ body {
   }
   .title {
     text-align: center;
+  }
+  .card {
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+  .card-hero {
+    /* background-color: red; */
+    border-bottom: 1px solid black;
+  }
+  .card-info {
+    padding: 1rem;
   }
 }

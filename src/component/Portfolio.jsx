@@ -1,315 +1,249 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
 import food from "../images/food.jpg";
 import fortnite from "../images/fortnite-app.jpg";
 import landingpage from "../images/landingpage.jpg";
 import netflix from "../images/netflixlogo.jpg";
 import todo from "../images/todo.jpg";
 import weather from "../images/weather.jpg";
-import { Grid } from "@material-ui/core";
-
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 250,
-  },
-  button: {
-    background: "black",
-    color: "white",
-    "&:hover": {
-      background: "#f56c5d",
-    },
-  },
-  text: {
-    color: "#222",
-  },
-  topMargin: {
-    marginTop: 30,
-  },
-});
 
 function Portfolio() {
-  const classes = useStyles();
   return (
-    <Container className={classes.topMargin} maxWidth="md">
+    <div className="card-container">
       <h1 className="title">Some of my Works</h1>
-      <Grid
-        className="grid-container"
-        alignItems="center"
-        justify="space-around"
-        spacing={10}
-        container
-      >
-        <Grid item className="grid-item" spacing={4}>
-          <Card className={`${classes.root} card`}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Netflix Clone"
-                height="140"
-                image={netflix}
-                title="Netflix Clone"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Netflix Clone
-                </Typography>
-                <Typography
-                  variant="body2"
-                  className={classes.text}
-                  component="p"
-                >
-                  Netflix clone is a very fascinating project. It uses{" "}
-                  <b>REACT</b>, react-movies and youtube packages to show movies
-                  trailers.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <a
-                href="https://vasanthan-aka-maari.github.io/Netflx-Clone/"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  website
-                </Button>
-              </a>
-              <a
-                href="https://github.com/Vasanthan-aka-Maari/Netflx-Clone/"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  github
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-        </Grid>
-        <Grid item className="grid-item" spacing={4}>
-          <Card className={`${classes.root} card`}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Food Recipe App"
-                height="140"
-                image={food}
-                title="Food Recipe App"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Food Recipe App
-                </Typography>
-                <Typography
-                  variant="body2"
-                  className={classes.text}
-                  component="p"
-                >
-                  This app basically shows the recipes on your search using an
-                  API. I have developed this application using <b>REACTjs</b>.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <a
-                href="https://vasanthan-aka-maari.github.io/Food-Recipe-App/"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  website
-                </Button>
-              </a>
-              <a
-                href="https://github.com/Vasanthan-aka-Maari/Food-Recipe-App"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  github
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-        </Grid>
-        <Grid item className="grid-item" spacing={4}>
-          <Card className={`${classes.root} card`}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Landing Page"
-                height="140"
-                image={landingpage}
-                title="Landing Page"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Landing Page
-                </Typography>
-                <Typography
-                  variant="body2"
-                  className={classes.text}
-                  component="p"
-                >
-                  A premium looking product landing page with a great design.
-                  This application was built with <b>REACTjs</b> and
-                  styledcomponent.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <a
-                href="https://vasanthan-aka-maari.github.io/react-product-landing-page/"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  website
-                </Button>
-              </a>
-              <a
-                href="https://github.com/Vasanthan-aka-Maari/react-product-landing-page"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  github
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-        </Grid>
-        <Grid item className="grid-item" spacing={4}>
-          <Card className={`${classes.root} card`}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Fornite Updates"
-                height="140"
-                image={fortnite}
-                title="Fornite Updates"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Fornite Updates
-                </Typography>
-                <Typography
-                  variant="body2"
-                  className={classes.text}
-                  component="p"
-                >
-                  This app shows the latest updates of Fortnite game using it's
-                  API. I have used <b>REACTjs</b> to develop this application.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <a
-                href="https://vasanthan-aka-maari.github.io/fortnite-app/"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  website
-                </Button>
-              </a>
-              <a
-                href="https://github.com/Vasanthan-aka-Maari/fortnite-app/"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  github
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-        </Grid>
 
-        <Grid item className="grid-item" spacing={4}>
-          <Card className={`${classes.root} card`}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Todo App"
-                height="140"
-                image={todo}
-                title="Todo App"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Todo App
-                </Typography>
-                <Typography
-                  variant="body2"
-                  className={classes.text}
-                  component="p"
-                >
-                  An amazing app to list down your daily TODOs. This app is
-                  built using <b>HTML, CSS and JAVASCRIPT</b>.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <a
-                href="https://vasanthan-aka-maari.github.io/Todo-app/"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  website
-                </Button>
-              </a>
-              <a
-                href="https://github.com/Vasanthan-aka-Maari/Todo-app"
-                target="_blank"
-              >
-                <Button className={classes.button} size="small" color="primary">
-                  github
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-        </Grid>
-        <Grid item className="grid-item" spacing={4}>
-          <Card className={`${classes.root} card`}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Weather App"
-                height="140"
-                image={weather}
-                title="Weather App"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Weather App
-                </Typography>
-                <Typography
-                  variant="body2"
-                  className={classes.text}
-                  component="p"
-                >
-                  This is a Weather forecast app, which shows weather condition
-                  of a place by using an API. Built with <b>REACTjs</b>.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <a href="https://vasanthan-aka-maari.github.io/Weather_App/">
-                <Button className={classes.button} size="small" color="primary">
-                  website
-                </Button>
-              </a>
-              <a href="https://github.com/Vasanthan-aka-Maari/Weather_App">
-                <Button className={classes.button} size="small" color="primary">
-                  github
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-        </Grid>
-      </Grid>
-    </Container>
+      <div className="card">
+        <div className="card-hero">
+          <img className="card-img" src={netflix} alt="netflix clone" />
+          <div className="card-links">
+            <a
+              className="card-link"
+              href="https://github.com/Vasanthan-aka-Maari/Netflx-Clone"
+              target="_blank"
+            >
+              <i class="fab fa-github">
+                <span> GitHub</span>
+              </i>
+            </a>
+            <a
+              className="card-link"
+              href="https://vasanthan-aka-maari.github.io/Netflx-Clone/"
+              target="_blank"
+            >
+              <i class="fas fa-eye">
+                <span> Website</span>
+              </i>
+            </a>
+          </div>
+        </div>
+        <div className="card-info">
+          <h1 className="card-title">Netflix Clone</h1>
+          <p className="card-text">
+            Netflix clone is a very fascinating project. It uses react-movies
+            and youtube npm packages to show movies trailers. It has a feature
+            to show movies trailers.
+            <br />
+            <p className="card-skills">
+              <span>Technology used: </span> Reactjs, JavaScript
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-hero">
+          <img
+            className="card-img"
+            src={landingpage}
+            alt="product landing page"
+          />
+          <div className="card-links">
+            <a
+              className="card-link"
+              href="https://github.com/Vasanthan-aka-Maari/react-product-landing-page"
+              target="_blank"
+            >
+              <i class="fab fa-github">
+                <span> GitHub</span>
+              </i>
+            </a>
+            <a
+              className="card-link"
+              href="https://vasanthan-aka-maari.github.io/react-product-landing-page/#/"
+              target="_blank"
+            >
+              <i class="fas fa-eye">
+                <span> Website</span>
+              </i>
+            </a>
+          </div>
+        </div>
+        <div className="card-info">
+          <h1 className="card-title">Product Landing Page</h1>
+          <p className="card-text">
+            A premium looking product landing page with a great design. This
+            application was developed with help of react-styledcomponent to
+            style the page.
+            <br />
+            <p className="card-skills">
+              <span>Technology used: </span> Reactjs, JavaScript
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-hero">
+          <img className="card-img" src={fortnite} alt="fortnite app" />
+          <div className="card-links">
+            <a
+              className="card-link"
+              href="https://github.com/Vasanthan-aka-Maari/fortnite-app"
+              target="_blank"
+            >
+              <i class="fab fa-github">
+                <span> GitHub</span>
+              </i>
+            </a>
+            <a
+              className="card-link"
+              href="https://vasanthan-aka-maari.github.io/fortnite-app/"
+              target="_blank"
+            >
+              <i class="fas fa-eye">
+                <span> Website</span>
+              </i>
+            </a>
+          </div>
+        </div>
+        <div className="card-info">
+          <h1 className="card-title">Fortnite App</h1>
+          <p className="card-text">
+            This app shows the latest updates of Fortnite game using it's API.
+            This was very fun to build and I really enjoyed building it.
+            <br />
+            <p className="card-skills">
+              <span>Technology used: </span> Reactjs, JavaScript
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-hero">
+          <img className="card-img" src={todo} alt="todo app" />
+          <div className="card-links">
+            <a
+              className="card-link"
+              href="https://github.com/Vasanthan-aka-Maari/Todo-app/"
+              target="_blank"
+            >
+              <i class="fab fa-github">
+                <span> GitHub</span>
+              </i>
+            </a>
+            <a
+              className="card-link"
+              href="https://vasanthan-aka-maari.github.io/Todo-app/"
+              target="_blank"
+            >
+              <i class="fas fa-eye">
+                <span> Website</span>
+              </i>
+            </a>
+          </div>
+        </div>
+        <div className="card-info">
+          <h1 className="card-title">Todo App</h1>
+          <p className="card-text">
+            An amazing app to list down your daily TODOs. This has a simple UI
+            where user can add delete their todos.
+            <br />
+            <p className="card-skills">
+              <span>Technology used: </span> HTML, CSS, JavaScript
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-hero">
+          <img className="card-img" src={weather} alt="weather app" />
+          <div className="card-links">
+            <a
+              className="card-link"
+              href="https://github.com/Vasanthan-aka-Maari/Weather_App"
+              target="_blank"
+            >
+              <i class="fab fa-github">
+                <span> GitHub</span>
+              </i>
+            </a>
+            <a
+              className="card-link"
+              href="https://vasanthan-aka-maari.github.io/Weather_App/"
+              target="_blank"
+            >
+              <i class="fas fa-eye">
+                <span> Website</span>
+              </i>
+            </a>
+          </div>
+        </div>
+        <div className="card-info">
+          <h1 className="card-title">Weather App</h1>
+          <p className="card-text">
+            This app shows the weather condition of the place which user can
+            search for. This app uses an API to get the real time weather.
+            <span style={{ fontSize: "1.2rem", fontWeight: "700" }}>
+              {" "}
+              (please view it in mobile screen size)
+            </span>
+            <br />
+            <p className="card-skills">
+              <span>Technology used: </span> Reactjs, JavaScript
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-hero">
+          <img className="card-img" src={food} alt="food recipe app" />
+          <div className="card-links">
+            <a
+              className="card-link"
+              href="https://github.com/Vasanthan-aka-Maari/Food-Recipe-App/"
+              target="_blank"
+            >
+              <i class="fab fa-github">
+                <span> GitHub</span>
+              </i>
+            </a>
+            <a
+              className="card-link"
+              href="https://vasanthan-aka-maari.github.io/Food-Recipe-App/"
+              target="_blank"
+            >
+              <i class="fas fa-eye">
+                <span> Website</span>
+              </i>
+            </a>
+          </div>
+        </div>
+        <div className="card-info">
+          <h1 className="card-title">Food App</h1>
+          <p className="card-text">
+            Food Recipe app displays food recipe and some additional
+            informations on user's query for a food. This serves the details by
+            using an API.
+            <br />
+            <p className="card-skills">
+              <span>Technology used: </span> Reactjs, JavaScript
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }
 
