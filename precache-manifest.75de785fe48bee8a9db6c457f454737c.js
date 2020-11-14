@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abfe7605e0d4986691f128cdab343447",
+    "revision": "dcd60f79df7d850cfda851f529a55625",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a565cc8a7db2fbefd36e",
+    "revision": "54cb6e620bdd2082077f",
     "url": "/portfolio/static/css/main.770374c7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.7aaac341.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a565cc8a7db2fbefd36e",
-    "url": "/portfolio/static/js/main.aaed61d3.chunk.js"
+    "revision": "54cb6e620bdd2082077f",
+    "url": "/portfolio/static/js/main.bc555808.chunk.js"
   },
   {
     "revision": "309a9e55c61ba5bff665",
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/netflixlogo.8443c3f1.jpg"
   },
   {
-    "revision": "dddf2eef4eb5ed098772d67b2464a199",
-    "url": "/portfolio/static/media/weather.dddf2eef.jpg"
+    "revision": "1e8e028abe729680c81e3909c465b1bb",
+    "url": "/portfolio/static/media/weather.1e8e028a.jpg"
   }
 ]);
