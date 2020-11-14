@@ -64,7 +64,7 @@ export const projects = [
     title: "Weather App",
     image: weather,
     info:
-      "This app shows the weather condition of the place which user can search for. This app uses an API to get the real time weather.(view on mobile screen)",
+      "This app shows the weather condition of the place which user can search for. This app uses an API to get the real time weather.",
     github: "https://github.com/Vasanthan-aka-Maari/weather-app",
     website: "https://vasanthan-aka-maari.github.io/weather-app/",
     technology: "Reactjs, JavaScript, API",
