@@ -258,21 +258,15 @@ body {
   .grid-item:hover {
     box-shadow: none;
   }
-  .card {
-    margin-left: 40px;
-    width: 450px !important;
-  }
   .title {
     text-align: center;
   }
   .card {
-    flex-direction: column;
+    width: 400px !important;
+    flex-direction: column-reverse;
     padding: 0;
     padding-bottom: 2rem;
-  }
-  .card-hero {
-    /* background-color: red; */
-    border-bottom: 1px solid black;
+    margin: 2rem auto;
   }
   .card-info {
     padding: 1rem;
