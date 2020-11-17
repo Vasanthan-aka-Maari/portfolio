@@ -6,10 +6,21 @@ import netflix from "../images/netflixlogo.jpg";
 import todo from "../images/todo.jpg";
 import weather from "../images/weather.jpg";
 import bookList from "../images/booklist.jpg";
+import covidtracker from "../images/covid-tracker.jpg";
 
 export const projects = [
   {
     id: 1,
+    title: "Covid-19 Tracker",
+    image: covidtracker,
+    info:
+      "This is an COVID-19 Tracker application. This uses an API at the backend to provide valuable information about corona virus worldwide.",
+    github: "https://github.com/Vasanthan-aka-Maari/covid-tracker",
+    website: "https://corona-tracker-2f5a7.web.app/",
+    technology: "Reactjs, JavaScript, API, firebase",
+  },
+  {
+    id: 2,
     title: "Amazon Clone",
     image: amazon,
     info:
@@ -19,7 +30,7 @@ export const projects = [
     technology: "Reactjs, JavaScript, context-api, firebase",
   },
   {
-    id: 2,
+    id: 3,
     title: "Netflix Clone",
     image: netflix,
     info:
@@ -29,7 +40,7 @@ export const projects = [
     technology: "Reactjs, JavaScript, API",
   },
   {
-    id: 3,
+    id: 4,
     title: "Landing Page",
     image: landingpage,
     info:
@@ -40,7 +51,7 @@ export const projects = [
     technology: "Reactjs, JavaScript, Styled components",
   },
   {
-    id: 4,
+    id: 5,
     title: "Fortnite App",
     image: fortnite,
     info:
@@ -50,7 +61,7 @@ export const projects = [
     technology: "Reactjs, JavaScript, API",
   },
   {
-    id: 5,
+    id: 6,
     title: "Todo List",
     image: todo,
     info:
@@ -60,7 +71,7 @@ export const projects = [
     technology: "Reactjs, JavaScript",
   },
   {
-    id: 6,
+    id: 7,
     title: "Weather App",
     image: weather,
     info:
@@ -70,7 +81,7 @@ export const projects = [
     technology: "Reactjs, JavaScript, API",
   },
   {
-    id: 7,
+    id: 8,
     title: "Food Recipe App",
     image: food,
     info:
