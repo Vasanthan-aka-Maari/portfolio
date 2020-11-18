@@ -30,6 +30,16 @@ export const projects = [
     technology: "Reactjs, JavaScript, context-api, firebase",
   },
   {
+    id: 6,
+    title: "Todo App",
+    image: todo,
+    info:
+      "This Todo app uses firestore to store todos in realtime. This application has CRUD functionality and a simple UI.",
+    github: "https://github.com/Vasanthan-aka-Maari/Todo-app-firebase-",
+    website: "https://todo-app-9cc3c.web.app/",
+    technology: "Reactjs, JavaScript, Firebase",
+  },
+  {
     id: 3,
     title: "Netflix Clone",
     image: netflix,
@@ -59,16 +69,6 @@ export const projects = [
     github: "https://github.com/Vasanthan-aka-Maari/fortnite-app",
     website: "https://vasanthan-aka-maari.github.io/fortnite-app/",
     technology: "Reactjs, JavaScript, API",
-  },
-  {
-    id: 6,
-    title: "Todo List",
-    image: todo,
-    info:
-      "An amazing app to list down your daily TODOs. This has a simple UI where user can add delete their todos.",
-    github: "https://github.com/Vasanthan-aka-Maari/Todo-app/",
-    website: "https://vasanthan-aka-maari.github.io/Todo-app/",
-    technology: "Reactjs, JavaScript",
   },
   {
     id: 7,
