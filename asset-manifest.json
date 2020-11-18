@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e3815350.chunk.css",
-    "main.js": "/portfolio/static/js/main.e92db774.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e92db774.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b69ddc71.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b69ddc71.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b3df5f95.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b3df5f95.js.map",
     "static/js/2.4f0aa45f.chunk.js": "/portfolio/static/js/2.4f0aa45f.chunk.js",
     "static/js/2.4f0aa45f.chunk.js.map": "/portfolio/static/js/2.4f0aa45f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.eb4740e2c1ef55ffa831982b3fa69f00.js": "/portfolio/precache-manifest.eb4740e2c1ef55ffa831982b3fa69f00.js",
+    "precache-manifest.8c44c4ff680021b140a4f240bdeeca5d.js": "/portfolio/precache-manifest.8c44c4ff680021b140a4f240bdeeca5d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.e3815350.chunk.css.map": "/portfolio/static/css/main.e3815350.chunk.css.map",
     "static/js/2.4f0aa45f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4f0aa45f.chunk.js.LICENSE.txt",
@@ -21,12 +21,13 @@
     "static/media/landingpage.jpg": "/portfolio/static/media/landingpage.c0124fc2.jpg",
     "static/media/logo.svg": "/portfolio/static/media/logo.a136794a.svg",
     "static/media/netflixlogo.jpg": "/portfolio/static/media/netflixlogo.8443c3f1.jpg",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.c2ffc20d.jpg",
     "static/media/weather.jpg": "/portfolio/static/media/weather.1e8e028a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b3df5f95.js",
     "static/js/2.4f0aa45f.chunk.js",
     "static/css/main.e3815350.chunk.css",
-    "static/js/main.e92db774.chunk.js"
+    "static/js/main.b69ddc71.chunk.js"
   ]
 }

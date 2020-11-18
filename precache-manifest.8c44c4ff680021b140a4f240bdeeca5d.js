@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97cc0153125545105f42119597473c26",
+    "revision": "e48ba495f5294b85e2433b5913997c03",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "59f2b02fcab8e561e132",
+    "revision": "3195c780e63b96068913",
     "url": "/portfolio/static/css/main.e3815350.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.4f0aa45f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59f2b02fcab8e561e132",
-    "url": "/portfolio/static/js/main.e92db774.chunk.js"
+    "revision": "3195c780e63b96068913",
+    "url": "/portfolio/static/js/main.b69ddc71.chunk.js"
   },
   {
     "revision": "309a9e55c61ba5bff665",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8443c3f1d0e61d543e95cc0ca6cd3aa0",
     "url": "/portfolio/static/media/netflixlogo.8443c3f1.jpg"
+  },
+  {
+    "revision": "c2ffc20d58ccc990d9b07c6ef6a7e7d7",
+    "url": "/portfolio/static/media/todo.c2ffc20d.jpg"
   },
   {
     "revision": "1e8e028abe729680c81e3909c465b1bb",
