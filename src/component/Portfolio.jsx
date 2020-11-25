@@ -1,5 +1,4 @@
 import React from "react";
-
 import { projects } from "./projects";
 
 function Portfolio() {
@@ -18,14 +17,10 @@ function Portfolio() {
               />
               <div className="card-links">
                 <a className="card-link" href={project.github} target="_blank">
-                  <i class="fab fa-github">
-                    <span> GitHub</span>
-                  </i>
+                  <span> GitHub</span>
                 </a>
                 <a className="card-link" href={project.website} target="_blank">
-                  <i class="fas fa-eye">
-                    <span> Website</span>
-                  </i>
+                  <span> Website</span>
                 </a>
               </div>
             </div>

@@ -1,11 +1,8 @@
-import food from "../images/food.jpg";
 import amazon from "../images/amazon.jpg";
-import fortnite from "../images/fortnite-app.jpg";
 import landingpage from "../images/landingpage.jpg";
 import netflix from "../images/netflixlogo.jpg";
 import todo from "../images/todo.jpg";
 import weather from "../images/weather.jpg";
-import bookList from "../images/booklist.jpg";
 import covidtracker from "../images/covid-tracker.jpg";
 
 export const projects = [
@@ -60,16 +57,7 @@ export const projects = [
       "https://vasanthan-aka-maari.github.io/react-product-landing-page/#/",
     technology: "Reactjs, JavaScript, Styled components",
   },
-  {
-    id: 5,
-    title: "Fortnite App",
-    image: fortnite,
-    info:
-      "This app shows the latest updates of Fortnite game using it's API. This was very fun to build and I really enjoyed building it.",
-    github: "https://github.com/Vasanthan-aka-Maari/fortnite-app",
-    website: "https://vasanthan-aka-maari.github.io/fortnite-app/",
-    technology: "Reactjs, JavaScript, API",
-  },
+
   {
     id: 7,
     title: "Weather App",
@@ -79,25 +67,5 @@ export const projects = [
     github: "https://github.com/Vasanthan-aka-Maari/weather-app",
     website: "https://vasanthan-aka-maari.github.io/weather-app/",
     technology: "Reactjs, JavaScript, API",
-  },
-  {
-    id: 8,
-    title: "Food Recipe App",
-    image: food,
-    info:
-      "Food Recipe app displays food recipe and some additional informations on user's query for a food. This serves the details by using an API.",
-    github: "https://github.com/Vasanthan-aka-Maari/Food-Recipe-App/",
-    website: "https://vasanthan-aka-maari.github.io/Food-Recipe-App/",
-    technology: "Reactjs, JavaScript, API",
-  },
-  {
-    id: 9,
-    title: "Book App",
-    image: bookList,
-    info:
-      "Book List is a best app to list the books that you want to read. This application uses local storage to store your book list.",
-    github: "https://github.com/Vasanthan-aka-Maari/Book-List",
-    website: "https://vasanthan-aka-maari.github.io/Book-List/",
-    technology: "Reactjs, JavaScript, LocalStorage",
   },
 ];

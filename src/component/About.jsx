@@ -13,12 +13,12 @@ function About() {
         </p>
       </div>
       <div className="skills-container">
-        {/* <h1>My Skills</h1> */}
         <ul>
           <li className="skill html">HTML</li>
           <li className="skill css">CSS</li>
-          <li className="skill js">JAVASCRIPT</li>
+          <li className="skill firebase">Firebase</li>
           <li className="skill react">REACT</li>
+          <li className="skill js">JAVASCRIPT</li>
         </ul>
       </div>
     </div>
