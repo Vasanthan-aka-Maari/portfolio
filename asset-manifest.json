@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e3815350.chunk.css",
-    "main.js": "/portfolio/static/js/main.b69ddc71.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b69ddc71.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c2954091.chunk.css",
+    "main.js": "/portfolio/static/js/main.c0898c7c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c0898c7c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b3df5f95.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b3df5f95.js.map",
-    "static/js/2.4f0aa45f.chunk.js": "/portfolio/static/js/2.4f0aa45f.chunk.js",
-    "static/js/2.4f0aa45f.chunk.js.map": "/portfolio/static/js/2.4f0aa45f.chunk.js.map",
+    "static/js/2.ee2acb73.chunk.js": "/portfolio/static/js/2.ee2acb73.chunk.js",
+    "static/js/2.ee2acb73.chunk.js.map": "/portfolio/static/js/2.ee2acb73.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8c44c4ff680021b140a4f240bdeeca5d.js": "/portfolio/precache-manifest.8c44c4ff680021b140a4f240bdeeca5d.js",
+    "precache-manifest.b026ccfc5118efb197284b119d87e5ed.js": "/portfolio/precache-manifest.b026ccfc5118efb197284b119d87e5ed.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.e3815350.chunk.css.map": "/portfolio/static/css/main.e3815350.chunk.css.map",
-    "static/js/2.4f0aa45f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4f0aa45f.chunk.js.LICENSE.txt",
+    "static/css/main.c2954091.chunk.css.map": "/portfolio/static/css/main.c2954091.chunk.css.map",
+    "static/js/2.ee2acb73.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ee2acb73.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.793f9960.pdf",
     "static/media/amazon.jpg": "/portfolio/static/media/amazon.c2193332.jpg",
-    "static/media/booklist.jpg": "/portfolio/static/media/booklist.f75b9117.jpg",
     "static/media/covid-tracker.jpg": "/portfolio/static/media/covid-tracker.6cf99429.jpg",
-    "static/media/food.jpg": "/portfolio/static/media/food.c6935996.jpg",
-    "static/media/fortnite-app.jpg": "/portfolio/static/media/fortnite-app.b60a6ea4.jpg",
     "static/media/landingpage.jpg": "/portfolio/static/media/landingpage.c0124fc2.jpg",
     "static/media/logo.svg": "/portfolio/static/media/logo.a136794a.svg",
     "static/media/netflixlogo.jpg": "/portfolio/static/media/netflixlogo.8443c3f1.jpg",
@@ -26,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b3df5f95.js",
-    "static/js/2.4f0aa45f.chunk.js",
-    "static/css/main.e3815350.chunk.css",
-    "static/js/main.b69ddc71.chunk.js"
+    "static/js/2.ee2acb73.chunk.js",
+    "static/css/main.c2954091.chunk.css",
+    "static/js/main.c0898c7c.chunk.js"
   ]
 }
