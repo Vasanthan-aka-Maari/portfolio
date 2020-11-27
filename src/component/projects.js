@@ -1,9 +1,8 @@
 import amazon from "../images/amazon.jpg";
 import landingpage from "../images/landingpage.jpg";
 import netflix from "../images/netflixlogo.jpg";
-import todo from "../images/todo.jpg";
-import weather from "../images/weather.jpg";
 import covidtracker from "../images/covid-tracker.jpg";
+import instagram from "../images/instagram-clone.jpg";
 
 export const projects = [
   {
@@ -27,17 +26,17 @@ export const projects = [
     technology: "Reactjs, JavaScript, context-api, firebase",
   },
   {
-    id: 6,
-    title: "Todo App",
-    image: todo,
+    id: 3,
+    title: "Instagram Clone",
+    image: instagram,
     info:
-      "This Todo app uses firestore to store todos in realtime. This application has CRUD functionality and a simple UI.",
-    github: "https://github.com/Vasanthan-aka-Maari/Todo-app-firebase-",
-    website: "https://todo-app-9cc3c.web.app/",
+      "This social media application allows to you to post a image, add a comment, create a user.",
+    github: "https://github.com/Vasanthan-aka-Maari/Instagram-clone",
+    website: "https://my-own-instagram-ceb49.web.app/",
     technology: "Reactjs, JavaScript, Firebase",
   },
   {
-    id: 3,
+    id: 4,
     title: "Netflix Clone",
     image: netflix,
     info:
@@ -56,16 +55,5 @@ export const projects = [
     website:
       "https://vasanthan-aka-maari.github.io/react-product-landing-page/#/",
     technology: "Reactjs, JavaScript, Styled components",
-  },
-
-  {
-    id: 7,
-    title: "Weather App",
-    image: weather,
-    info:
-      "This app shows the weather condition of the place which user can search for. This app uses an API to get the real time weather.",
-    github: "https://github.com/Vasanthan-aka-Maari/weather-app",
-    website: "https://vasanthan-aka-maari.github.io/weather-app/",
-    technology: "Reactjs, JavaScript, API",
   },
 ];

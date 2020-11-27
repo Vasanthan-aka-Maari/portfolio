@@ -1,3 +1,9 @@
+:root {
+  --primary: #1a1a1c;
+  --secondary: #6f2232;
+  --text-primary: #c43a40;
+  --text-secondary: #fbfbfb;
+}
 /* MOBILE SCREEN NAVBAR */
 .mobileScreen {
   display: none;
@@ -15,7 +21,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: var(--text-secondary);
 }
 .logo {
   width: 40px !important;
@@ -23,13 +29,13 @@ a {
 .menu-bars {
   font-size: 2rem;
   background: none;
-  color: rgb(245, 241, 251);
+  color: var(--secondary);
 }
 .nav-menu {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to top, #3b3b3a, #383838);
+  background: var(--secondary);
   width: 250px;
   height: 100vh;
   font-size: 1.3rem;
@@ -61,7 +67,7 @@ a {
   transition: all 0.5s ease;
 }
 .nav-text a:hover {
-  background-color: #3660e6;
+  background-color: var(--text-primary);
 }
 /* MOBILE SCREEN NAVBAR */
 
@@ -82,15 +88,14 @@ a {
   font-weight: bold;
 }
 .link:hover {
-  background-color: #3660e6;
-  color: white;
+  color: var(--text-primary);
 }
 .link-active {
-  color: #f56c5d;
+  color: var(--text-primary);
 }
 .link-active:hover {
   background: none;
-  color: #f56c5d;
+  color: var(--text-secondary);
 }
 /* PC SCREEN NAVBAR */
 @media screen and (max-width: 720px) {
