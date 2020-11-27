@@ -10,7 +10,7 @@ export const projects = [
     title: "Instagram Clone",
     image: instagram,
     info:
-      "This social media application allows to you to post a image, add a comment, create a user.",
+      "This social media application allows to you to post a image, add a comment, create a user. This also has authentication using firebase.",
     github: "https://github.com/Vasanthan-aka-Maari/Instagram-clone",
     website: "https://my-own-instagram-ceb49.web.app/",
     technology: "Reactjs, JavaScript, Firebase",
