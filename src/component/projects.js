@@ -6,6 +6,16 @@ import instagram from "../images/instagram-clone.jpg";
 
 export const projects = [
   {
+    id: 3,
+    title: "Instagram Clone",
+    image: instagram,
+    info:
+      "This social media application allows to you to post a image, add a comment, create a user.",
+    github: "https://github.com/Vasanthan-aka-Maari/Instagram-clone",
+    website: "https://my-own-instagram-ceb49.web.app/",
+    technology: "Reactjs, JavaScript, Firebase",
+  },
+  {
     id: 1,
     title: "Covid-19 Tracker",
     image: covidtracker,
@@ -25,16 +35,7 @@ export const projects = [
     website: "https://clone-782c9.web.app/#/",
     technology: "Reactjs, JavaScript, context-api, firebase",
   },
-  {
-    id: 3,
-    title: "Instagram Clone",
-    image: instagram,
-    info:
-      "This social media application allows to you to post a image, add a comment, create a user.",
-    github: "https://github.com/Vasanthan-aka-Maari/Instagram-clone",
-    website: "https://my-own-instagram-ceb49.web.app/",
-    technology: "Reactjs, JavaScript, Firebase",
-  },
+
   {
     id: 4,
     title: "Netflix Clone",
