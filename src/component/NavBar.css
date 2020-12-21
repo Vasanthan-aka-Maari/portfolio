@@ -29,7 +29,7 @@ a {
 .menu-bars {
   font-size: 2rem;
   background: none;
-  color: var(--secondary);
+  color: var(--text-secondary);
 }
 .nav-menu {
   position: absolute;
@@ -91,7 +91,7 @@ a {
   color: var(--text-primary);
 }
 .link-active {
-  color: var(--text-primary);
+  color: var(--primary);
 }
 .link-active:hover {
   background: none;
